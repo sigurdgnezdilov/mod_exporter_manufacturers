@@ -1,6 +1,5 @@
-# Mod_heurekacode
-Přidává heureka kod ke každému produktu, pomocí polymorfní tabulky PMstring.
-Balíček pracuje s Kontrolerem, Modelem, Repozitářem a pohledy.
+# mod_exporter_manufacturers
+ 
 
 <strong>
 ! Důležité v této verzi si po sobě balíčkovač neuklidí. Proto je nutné po odinstalaci 
@@ -23,12 +22,8 @@ Fileshema :
             ->backend
                 -> catalog
                     -> products
-                        -> components
-                            -> form_main.blade.php
-                        -> create.blade.php
-                        -> edit.blade.php
-                        -> list.blade.php
-                        -> show.blade.php
+                           -> create.blade.php
+ 
                         
 
 Popis funkce balíčku
@@ -40,4 +35,4 @@ Popis funkce balíčku
     dedi vsechny metody z originalu, navic jsou pridane metody pro praci s heureka kodem.
 3. Kontroler :<br />
     Slouzi jenom jako prostrednik. Neobsahuje zadne vlastni metody, jenom dedi z originalu.
-      # mod_exporter_manufacturers
+ 
